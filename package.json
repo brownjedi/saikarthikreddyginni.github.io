@@ -13,7 +13,7 @@
   },
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -d build -b master",
     "start": "react-scripts-ts start",
     "prebuild": "shx rm -rf build",
     "build": "react-scripts-ts build",
