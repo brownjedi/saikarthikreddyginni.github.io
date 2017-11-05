@@ -1,2 +1,2 @@
 // Import polyfills
-import './polyfills';
+import './polyfills'

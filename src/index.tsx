@@ -1,14 +1,14 @@
 // Import polyfills
-import './polyfills';
+import './polyfills'
 
-import * as React from 'react';
-import * as ReactDOM from 'react-dom';
-import Routes from 'routes';
-import registerServiceWorker from './registerServiceWorker';
-import './index.css';
+import * as React from 'react'
+import * as ReactDOM from 'react-dom'
+import Routes from 'routes'
+import registerServiceWorker from './registerServiceWorker'
+import './index.css'
 
 ReactDOM.render(
   <Routes />,
   document.getElementById('root') as HTMLElement
-);
-registerServiceWorker();
+)
+registerServiceWorker()

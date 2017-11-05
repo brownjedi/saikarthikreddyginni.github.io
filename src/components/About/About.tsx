@@ -1,6 +1,6 @@
-import * as React from 'react';
-import './About.css';
-const logo = require('./logo.svg');
+import * as React from 'react'
+import './About.css'
+const logo = require('./logo.svg')
 
 export default class About extends React.Component {
   render() {
@@ -11,6 +11,6 @@ export default class About extends React.Component {
           <h2>About</h2>
         </div>
       </div>
-    );
+    )
   }
 }
