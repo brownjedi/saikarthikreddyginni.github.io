@@ -7,3 +7,14 @@ cache:
 script:
   - npm run build
   - npm test
+deploy:
+  provider: pages
+  skip-cleanup: true
+  keep-history: true
+  local-dir: public
+  target-branch: master
+  fqdn: saikarthik.io
+  github-token:
+    secure: "YSeXw986KFcBtbexG61tONuCDXnlUbrEbEkGF05Cp9REv5Kb09uHTOH7bK0+KXavjIliV0nqBsJEHJf2j/runJPhPOLL3yctuVr9lMmoQO8Fpedk3Q1YcBqDwzcEz0vYwY+m+ZSALdTrnwPA7lbeLC2/mfnZdBHA+1IHi25jvdbKAZps1QVRtl0NFM8jL6uzey1CnM7+T9mO+wRrMvPiPL2pUFzve35QlAJ9xhNxFY0LmH6PPy7jR2ZW4IXPJIwI1Rgm1PHfPacN1xwkpqsOJ7eleqVWWLTJqoCU1yogtW4a0lecYR/W0+1KfxKo08ii7KTsGsy0hm1dsRJ+sHpDErrPxrlLy9NX/LIyRIVTsMDquTFJlT4nLIWRF5kL9//AXgzEd95ScrmGTcJdbH6LQz1yOhBZwjIIVmYhZWxWYwFFUisbWb5g/KvjYj5iiN0s+upbm04JdLiBemhAIWr6pqgcHV+FHuNN+C1lG31Iu+vDKZfu1yTiwd28zzAmy2zteb2Z7VI/sDG10Cj8VXqnyJ2+AYmi6nAz3pC8D2+wGf0cFfNiCWRq2+8vBNjjGr2khD/VECXKr7WRph08n4P8SJ7vj0rD8IOZes5Y1k7Onyp7ng2X0yWSdxBeU39D80NrZXYouxU/3o7Ta5yQ65RijbUNIkjNRPtqxpvgThATfFg="
+  on:
+    branch: source

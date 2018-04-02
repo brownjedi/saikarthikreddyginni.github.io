@@ -1,7 +1,7 @@
 {
   "name": "saikarthikreddyginni.github.io",
   "author": "Sai Karthik Ginni <saikarthikreddyginni@outlook.com>",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "private": true,
   "dependencies": {
     "autoprefixer": "^8.2.0",
