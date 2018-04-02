@@ -1,3 +1,4 @@
+# See https://help.github.com/ignore-files/ for more about ignoring files.
 # Logs
 logs
 *.log
@@ -39,6 +40,9 @@ jspm_packages/
 # Typescript v1 declaration files
 typings/
 
+# Gatsby cache directory
+.cache/
+
 # Optional npm cache directory
 .npm
 
@@ -62,8 +66,11 @@ typings/
 # testing
 /coverage
 
-# production
-/build
+# Build directory
+public/
+
+# built stylesheets
+src/**/*.css
 
 # misc
 .DS_Store

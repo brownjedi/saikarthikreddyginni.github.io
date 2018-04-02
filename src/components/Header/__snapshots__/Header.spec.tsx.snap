@@ -1,0 +1,247 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header component renders correctly 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Header />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": <div
+        style={
+          Object {
+            "margin": "0 auto",
+            "maxWidth": 960,
+            "padding": "1.45rem 1.0875rem",
+          }
+        }
+      >
+        <h1
+          style={
+            Object {
+              "margin": 0,
+            }
+          }
+        >
+          <GatsbyLink
+            style={
+              Object {
+                "color": "white",
+                "textDecoration": "none",
+              }
+            }
+            to="/"
+          >
+            Gatsby
+          </GatsbyLink>
+        </h1>
+      </div>,
+      "className": "header",
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": <h1
+          style={
+            Object {
+              "margin": 0,
+            }
+          }
+        >
+          <GatsbyLink
+            style={
+              Object {
+                "color": "white",
+                "textDecoration": "none",
+              }
+            }
+            to="/"
+          >
+            Gatsby
+          </GatsbyLink>
+        </h1>,
+        "style": Object {
+          "margin": "0 auto",
+          "maxWidth": 960,
+          "padding": "1.45rem 1.0875rem",
+        },
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <GatsbyLink
+            style={
+              Object {
+                "color": "white",
+                "textDecoration": "none",
+              }
+            }
+            to="/"
+          >
+            Gatsby
+          </GatsbyLink>,
+          "style": Object {
+            "margin": 0,
+          },
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": "Gatsby",
+            "style": Object {
+              "color": "white",
+              "textDecoration": "none",
+            },
+            "to": "/",
+          },
+          "ref": null,
+          "rendered": "Gatsby",
+          "type": [Function],
+        },
+        "type": "h1",
+      },
+      "type": "div",
+    },
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": <div
+          style={
+            Object {
+              "margin": "0 auto",
+              "maxWidth": 960,
+              "padding": "1.45rem 1.0875rem",
+            }
+          }
+        >
+          <h1
+            style={
+              Object {
+                "margin": 0,
+              }
+            }
+          >
+            <GatsbyLink
+              style={
+                Object {
+                  "color": "white",
+                  "textDecoration": "none",
+                }
+              }
+              to="/"
+            >
+              Gatsby
+            </GatsbyLink>
+          </h1>
+        </div>,
+        "className": "header",
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <h1
+            style={
+              Object {
+                "margin": 0,
+              }
+            }
+          >
+            <GatsbyLink
+              style={
+                Object {
+                  "color": "white",
+                  "textDecoration": "none",
+                }
+              }
+              to="/"
+            >
+              Gatsby
+            </GatsbyLink>
+          </h1>,
+          "style": Object {
+            "margin": "0 auto",
+            "maxWidth": 960,
+            "padding": "1.45rem 1.0875rem",
+          },
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <GatsbyLink
+              style={
+                Object {
+                  "color": "white",
+                  "textDecoration": "none",
+                }
+              }
+              to="/"
+            >
+              Gatsby
+            </GatsbyLink>,
+            "style": Object {
+              "margin": 0,
+            },
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": "Gatsby",
+              "style": Object {
+                "color": "white",
+                "textDecoration": "none",
+              },
+              "to": "/",
+            },
+            "ref": null,
+            "rendered": "Gatsby",
+            "type": [Function],
+          },
+          "type": "h1",
+        },
+        "type": "div",
+      },
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;
