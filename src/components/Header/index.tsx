@@ -1,11 +1,15 @@
 import * as React from 'react'
+import styled from 'styled-components'
 import Link from 'gatsby-link'
-import * as styles from './index.module.scss'
 
+const HeaderDiv = styled.div`
+  background: black;
+  margin-bottom: 1.45rem;
+`
+
+// tslint:disable-next-line:no-any
 const Header: React.SFC<any> = () => (
-  <div
-    className={styles.header}
-  >
+  <HeaderDiv>
     <div
       style={{
         margin: '0 auto',
@@ -25,7 +29,7 @@ const Header: React.SFC<any> = () => (
         </Link>
       </h1>
     </div>
-  </div>
+  </HeaderDiv>
 )
 
 export default Header

@@ -1,3 +1,4 @@
+// tslint:disable:no-any
 
 declare module '*.svg' {
   const value: any
@@ -17,12 +18,4 @@ declare module '*.jpg' {
 declare module '*.jpeg' {
   const value: any
   export default value
-}
-
-declare module '*.scss' {
-  interface IClassNames {
-    [className: string]: string
-  }
-  const classNames: IClassNames
-  export = classNames
 }

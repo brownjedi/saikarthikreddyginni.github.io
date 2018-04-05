@@ -1,5 +1,6 @@
 import * as React from 'react'
 
+// tslint:disable-next-line:no-any
 const NotFoundPage: React.SFC<any> = () => (
   <div>
     <h1>NOT FOUND</h1>

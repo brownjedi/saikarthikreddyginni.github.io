@@ -3,8 +3,8 @@ import { Helmet } from 'react-helmet'
 import Header from 'components/Header'
 
 import 'normalize.css/normalize.css'
-import './index.scss'
 
+// tslint:disable-next-line:no-any
 const TemplateWrapper: React.SFC<any> = ({ children }) => (
   <div>
     <Helmet

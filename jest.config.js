@@ -16,7 +16,7 @@ module.exports = {
   "testURL": "http://localhost",
   "transform": {
     "^.+\\.tsx?$": "ts-jest",
-    "^(?!.*\\.(js|jsx|ts|tsx|css|scss|json)$)": "<rootDir>/__mocks__/jest/file-transform.js"
+    "^(?!.*\\.(js|jsx|ts|tsx|css|json)$)": "<rootDir>/__mocks__/jest/file-transform.js"
   },
   "transformIgnorePatterns": [
     "[/\\\\]node_modules[/\\\\].+\\.(js|jsx|ts|tsx)$",
