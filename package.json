@@ -6,7 +6,7 @@
   "dependencies": {
     "babel-plugin-styled-components": "^1.5.1",
     "classnames": "^2.2.5",
-    "gatsby": "^1.9.243",
+    "gatsby": "^2.0.0",
     "gatsby-link": "^1.6.40",
     "gatsby-plugin-react-helmet": "^2.0.9",
     "gatsby-plugin-react-next": "^1.0.11",
@@ -15,12 +15,12 @@
     "gatsby-plugin-styled-components": "^2.0.11",
     "gatsby-plugin-typescript": "^1.4.19",
     "normalize.css": "^8.0.0",
-    "react": "^16.3.0",
-    "react-dom": "^16.3.0",
+    "react": "^16.5.0",
+    "react-dom": "^16.5.0",
     "react-helmet": "^5.2.0",
     "react-router": "^4.2.0",
     "react-router-dom": "^4.2.2",
-    "styled-components": "^3.2.5"
+    "styled-components": "^4.0.0"
   },
   "keywords": [
     "gatsby"
